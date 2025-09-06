@@ -25,4 +25,11 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
-
+document.addEventListener('DOMContentLoaded', () => {
+    const startButton = document.getElementById('viet-button');
+    if (startButton) {
+        startButton.addEventListener('click', () => {
+            window.location.href = 'Tieng_Viet.html';
+        });
+    }
+});
