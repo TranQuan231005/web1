@@ -72,3 +72,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // Generate the first problem when the page loads
     generateProblem();
 });
+// Out to home.html
+document.addEventListener('DOMContentLoaded', () => {
+    const backButton = document.getElementById('back-button');
+    if (backButton) {
+        backButton.addEventListener('click', () => {
+            window.location.href = 'Home.html';
+        });
+    }
+}
+)
